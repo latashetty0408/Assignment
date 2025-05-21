@@ -1,0 +1,25 @@
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marqueeContent {
+  display: flex;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause animation when hovering */
+.marquee:hover .marqueeContent {
+  animation-play-state: paused;
+}

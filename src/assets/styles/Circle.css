@@ -1,0 +1,26 @@
+.title-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border: 8px solid orange;
+  border-radius: 50%;
+}
+
+.title-text {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 30px; /* Adjust based on circle size */
+}
