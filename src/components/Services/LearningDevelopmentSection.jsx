@@ -32,11 +32,13 @@ const LearningDevelopmentSection = () => {
             {/* Vertical dotted line */}
 
             <div className="lg:pl-12">
-              <Heading
-                title="Learning & Development"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              />
-
+              <h2 className="text-3xl font-bold mb-4">Talent Transformation</h2>
+              <p className="mb-10 text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
               <div className="mt-8 space-y-6">
                 <ServiceCard
                   imageSrc={Services_5}

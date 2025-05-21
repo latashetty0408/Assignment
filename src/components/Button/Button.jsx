@@ -5,7 +5,8 @@ const Button = ({ children, onClick, type = "submit" }) => {
     <button
       type={type}
       onClick={onClick}
-      className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-full transition-colors"
+      style={{ borderRadius: "101px" }}
+      className="bg-[#FF4D00] text-white font-medium py-3 px-8 rounded-md  transition-colors"
     >
       {children}
     </button>

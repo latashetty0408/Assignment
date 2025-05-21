@@ -74,17 +74,20 @@ const TestimonialCarousel = () => {
   }
 
   return (
-    <div className="py-16 px-4 bg-[#0a0b2e] text-white relative">
+    <div className="py-16 px-4 bg-[#0a0b2e] text-white relative testimonials-path">
       {/* Top sloped edge */}
-      <div
+      {/* <div
         className="absolute top-0 left-0 w-full h-16 bg-white"
         style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 0)" }}
-      ></div>
+      ></div> */}
 
       <div className="max-w-6xl mx-auto relative z-10">
         <Heading
           title="Testimonials"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          withCircle={true}
+          className="text-white text-center"
+          subtitleClassName="text-gray-300 text-lg text-center w-2/3 mx-auto"
         />
 
         <div className="relative mt-12">
@@ -111,10 +114,10 @@ const TestimonialCarousel = () => {
       </div>
 
       {/* Bottom sloped edge */}
-      <div
+      {/* <div
         className="absolute bottom-0 left-0 w-full h-16 bg-white"
         style={{ clipPath: "polygon(0 100%, 100% 0, 100% 100%, 0 100%)" }}
-      ></div>
+      ></div> */}
     </div>
   )
 }

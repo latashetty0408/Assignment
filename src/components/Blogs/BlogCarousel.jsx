@@ -92,6 +92,8 @@ const BlogCarousel = () => {
         <Heading
           title="Blogs"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          withCircle={true}
+          subtitleClassName="text-lg text-center w-2/3 mx-auto"
         />
 
         <div className="relative">

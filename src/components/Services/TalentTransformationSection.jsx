@@ -11,15 +11,15 @@ import Services_4 from "../../assets/images/Services_4.png"
 const TalentTransformationSection = () => {
   return (
     <>
-      <div
+      {/* <div
         class="absolute bottom-0 left-0 w-full h-16 bg-[#080A13]"
         style={{
           "clip-path": "polygon(0px 100%, 100% 0px, 100% 100%, 0px 100%)",
         }}
-      ></div>
+      ></div> */}
       
       <div
-        className="text-white py-16 relative"
+        className="text-white py-16 relative section-top-angled"
         style={{
           background: `linear-gradient(87.74deg, #050A1D 1.72%, #080A13 98.22%), 
                     linear-gradient(49.31deg, rgba(0, 0, 0, 0.2) -3.28%, rgba(253, 81, 21, 0.2) -3.27%, rgba(0, 0, 0, 0) 76.93%)`,
@@ -33,6 +33,7 @@ const TalentTransformationSection = () => {
               subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               withCircle={true}
               className="text-center"
+              subtitleClassName="text-gray-300 text-lg text-center w-2/3 mx-auto"
             />
           </div>
 
@@ -40,7 +41,7 @@ const TalentTransformationSection = () => {
             {/* Left side - Content */}
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-bold mb-4">Talent Transformation</h2>
-              <p className="mb-8">
+              <p className="mb-10 text-gray-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
                 ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -1,4 +1,5 @@
 "use client"
+import Heading from "../Heading/Heading.Jsx"
 import CounterAnimation from "./CounterAnimation"
 import StatItem from "./StatItem"
 
@@ -13,18 +14,24 @@ const StatsSection = () => {
   ]
 
   return (
-    <div className="relative bg-[#0a0b2e] py-16 text-white">
-        <div
+    <div className="relative bg-[#0a0b2e] py-16 text-white section-bottom-angled">
+        {/* <div
         className="absolute top-0 left-0 w-full h-16 bg-white"
         style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 0)" }}
-      ></div>
+      ></div> */}
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Heading with orange circle */}
           <div className="flex flex-col items-center mb-12">
             <div className="relative mb-2">
-              <h2 className="text-4xl font-bold relative z-10">Lorem Ipsum</h2>
-              <div className="absolute top-0 right-0 w-12 h-12 rounded-full border-2 border-orange-500 z-0"></div>
+              <Heading
+                title="Lorem Ipsum"
+                withCircle={true}
+                className="text-3xl md:text-4xl font-bold text-[#ffffff]"
+                // subtitleClassName="text-xl font-medium text-[#ffffff]"
+                />
+              {/* <h2 className="text-4xl font-bold relative z-10">Lorem Ipsum</h2>
+              <div className="absolute top-0 right-0 w-12 h-12 rounded-full border-2 border-orange-500 z-0"></div> */}
             </div>
             <p className="text-center max-w-2xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -61,10 +68,10 @@ const StatsSection = () => {
       </div>
 
       {/* Sloped bottom edge */}
-      <div
+      {/* <div
         className="absolute bottom-0 left-0 w-full h-16 bg-white"
         style={{ clipPath: "polygon(0 100%, 100% 0, 100% 100%, 0 100%)" }}
-      ></div>
+      ></div> */}
     </div>
   )
 }
