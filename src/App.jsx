@@ -15,7 +15,7 @@ import SectionWrapper from "./components/Services/ServiceWrapper"
 function App() {
   return (
     <div className="App">
-            {/* Trusted By Section */}
+            {/* Trusted By Section 1 */}
       <TrustedBySection />
 <SectionWrapper backgroundColor="#0a0b2e">
         <div className="pt-16">
