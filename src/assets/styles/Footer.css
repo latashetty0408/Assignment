@@ -171,7 +171,11 @@
   .footer-content {
     flex-direction: column;
   }
-
+  
+  .footer-content .flex {
+    flex-direction: column;
+  }
+  
   .footer-content > div {
     flex: 0 0 100%;
   }
@@ -189,3 +193,4 @@
     font-size: 10px;
   }
 }
+
