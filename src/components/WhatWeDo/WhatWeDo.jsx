@@ -38,9 +38,12 @@ const WhatWeDo = () => {
     <div className="relative bg-white py-16">
 
       <div className="container mx-auto px-4 py-8 relative z-10">
-        <div className="max-w-6xl mx-auto border border-blue-500 rounded-lg p-8">
+        <div className="max-w-6xl mx-auto rounded-lg p-8">
           <div className="mb-8">
-            <Heading title="What We Do" subtitle="" />
+            <Heading 
+            title="What We Do" 
+            subtitle=""
+            withCircle={true} />
             <p className="text-center max-w-4xl mx-auto text-gray-700 mt-4">
               Idealabs iMocha is Next Generation HR Tech organization, addressing Talent Acquisition and Talent
               Development requirements for Corporates with our Award-Winning Skill Intelligence cloud Platform, LMS- LXP

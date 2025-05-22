@@ -1,8 +1,9 @@
+import "./ServiceWrapper.css"
 const SectionWrapper = ({ children, backgroundColor = "#0a0b2e", topSlope = true, bottomSlope = true }) => {
   return (
-    <div className="relative">
+    <div className="relative section-angled">
       {/* Top sloped edge */}
-      {topSlope && (
+      {/* {topSlope && (
         <div
           className="absolute top-0 left-0 w-full h-16 z-10"
           style={{
@@ -10,13 +11,13 @@ const SectionWrapper = ({ children, backgroundColor = "#0a0b2e", topSlope = true
             background: backgroundColor,
           }}
         ></div>
-      )}
+      )} */}
 
       {/* Content */}
       <div className="relative z-0">{children}</div>
 
       {/* Bottom sloped edge */}
-      {bottomSlope && (
+      {/* {bottomSlope && (
         <div
           className="absolute bottom-0 left-0 w-full h-16 z-10"
           style={{
@@ -24,7 +25,7 @@ const SectionWrapper = ({ children, backgroundColor = "#0a0b2e", topSlope = true
             background: backgroundColor,
           }}
         ></div>
-      )}
+      )} */}
     </div>
   )
 }

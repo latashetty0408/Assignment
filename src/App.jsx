@@ -11,13 +11,17 @@ import FaqSection from "./components/Faq/FaqSection"
 import ContactPage from "./components/ContactUs/ContactUs"
 import Footer from "./components/Footer/Footer"
 import SectionWrapper from "./components/Services/ServiceWrapper"
+import Banner from "./components/Banner/Banner"
+import ChroPanelSection from "./components/VideoPlayer/VideoPlayer"
 
 function App() {
   return (
     <div className="App">
+      <Banner />
+      <ChroPanelSection />
             {/* Trusted By Section 1 */}
       <TrustedBySection />
-<SectionWrapper backgroundColor="#0a0b2e">
+{/* <SectionWrapper backgroundColor="#0a0b2e"> */}
         <div className="pt-16">
           {" "}
           {/* Add padding to account for the top slope */}
@@ -26,14 +30,14 @@ function App() {
           {/* Learning & Development Section */}
           <LearningDevelopmentSection />
         </div>
-      </SectionWrapper>
+       <StatsSection />
+      {/* </SectionWrapper> */}
       {/* Services & Talent Transformation Section */}
       {/* <TalentTransformationSection /> */}
 
       {/* Learning & Development Section */}
       {/* <LearningDevelopmentSection /> */}
 
-       <StatsSection />
       <WhatWeDo />
        <TestimonialCarousel />
        <BlogCarousel />

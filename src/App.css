@@ -13,3 +13,50 @@ body {
 .accordion-content {
   transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.section-top-angled {
+  /* background: #000; dark background */
+  color: white;
+  padding: 100px 0 0 0;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+
+}
+.section-bottom-angled {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    padding-bottom: 100px;
+}
+
+.testimonials-path {
+  clip-path: polygon(0 6%, 100% 0, 100% 95%, 0 100%);
+}
+
+.blog_card h3{
+  font-size: 1.25rem !important
+}
+
+.read-more {
+ /* Read more */
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #FD5115 !important;
+  text-decoration: none;
+
+}
+.blog_card * {
+  color: #0a0b2e;
+}
+.blog_card {
+  background: #fff;
+}
+
+.blog_card:hover  {
+  background: #0a0b2e;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog_card:hover * {
+  color: #fff;
+}
