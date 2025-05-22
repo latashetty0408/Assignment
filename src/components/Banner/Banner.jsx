@@ -8,8 +8,9 @@ export default function Banner() {
     <section className="hero relative text-white overflow-hidden min-h-[90vh]">
 
       <Navbar />
+<div className="flex flex-col md:flex-row justify-between items-center max-w-screen-xl mx-auto px-6 py-12">
 
-      <div className="flex flex-wrap justify-between items-center max-w-screen-xl mx-auto px-6 py-12">
+     
         <div className="flex-1 max-w-xl">
           <h1 className="text-4xl font-bold leading-tight">
             Talent Analytics <br /> & Learning
